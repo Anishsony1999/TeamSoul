@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    /* background-color: black; */
+    background-image:url(../image/backimg.png) ;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ .ma button{ 
+    position: absolute;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border:  2px solid #3eff37;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-left:350px;
+    margin-top: -50px;
+    
+
+}
+.ma span{
+    background: #3eff37;
+    height: 100%;
+    width: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    transition: .8s;
+}
+.ma button:hover span{
+    width: 100%;
+} 
+
+.ma{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100vh;
+}
+.fe button{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border:  2px solid #ea32c2;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-right:200px;
+    margin-top: -50px;
+
+} 
+
+.fe{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.fe span{
+    background: #ea32c2;
+    height: 100%;
+    width: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    transition: .8s;
+}
+.fe button:hover span{
+    width: 100%;
+} 

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pass{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    /* background: #333; */
+    background-image: linear-gradient(#ae2727,#1756c4);
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.pass div{
+    /* height: 700px; */
+    width: 400px;
+    display: inline-block;
+    background: black; 
+     background-image: linear-gradient(#ea6262,#6f26dd); 
+     color: white; 
+     /* display:flex; */
+    padding: 20px;
+     /* align-items: center; */
+    /* justify-content:space-evenly;  */
+    border-radius: 20px;
+    position: relative;
+    border: 2px solid #333;
+
+
+}
+
+#rot{
+
+    position: absolute;
+    animation-name: soos;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    left:80px;
+
+}
+
+@keyframes soos{
+
+    0%{
+        transform: rotate(1deg);
+        /* transform: rotateZ(2deg); */
+    }
+    50%{
+        transform: rotate(20deg);
+        /* transform: rotateZ(180deg); */
+    }
+}
+
+#pass{
+    width: 280px;
+    height: 280px;
+    margin-left: 29px;
+
+}
+.pass div span{
+    display: inline-block;
+    padding-left:60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.pass div span:last-child{
+    font-size: 17px;
+}
+.pass div:hover{
+    transform: scale(1.03);
+    background-image: linear-gradient(#6f26dd,#ea6262);
+}
+
+.pass div a button{
+    font-size: 18px;
+    border-radius: 10px;
+    padding:5px 8px;
+    background: transparent;
+    border: solid 2px rgb(255, 221, 0);
+    /* box-shadow: 10px ; */
+    color: rgb(255, 255, 255,.6);
+    margin-left: 280px;
+}
+ 
+.pass div a button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 234, 4);
+    color: #333;
+
+}

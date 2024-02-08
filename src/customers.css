@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(19, 19, 19, 0.466);
+}
+
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style:none ;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover{
+    background:#fff ;
+    color: #2b1055;
+}
+
+
+.con{
+    /* background-color:#caf0f8; */
+    /* background-image: linear-gradient(#20ff02af,#0055ff); */
+    background-image: linear-gradient(#f7e89cd5,#fff);
+    /* background-color: #ffffff; */
+    
+}
+.jail{
+    display: flex;
+    gap: 20px;
+    width:1200px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+    margin:0% 15%;
+    /* background-color:#caf0f8; */
+    
+}
+
+
+.jail div{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 250px;
+    border: 2px solid rgb(190, 194, 195);
+    /* justify-content: center; */
+    align-items: center;
+    align-items: top;
+    padding: 10px;
+    /* background-color: papayawhip; */
+    /* background-color:#2a9d8f; */
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px hsl(0, 0%, 100%);
+
+}
+
+.jail div:hover{
+    cursor: pointer;
+    background-color: #eee4e1;
+    transform: scale(1.02);
+    
+}
+.jail div h3:hover{
+    cursor: pointer;
+    background-color: #eee4e1;
+    transform: scale(1.02);
+}
+
+.jail div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding: 100px 50px;
+    color: #333;
+}
+
+
+section{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: #333;
+}
